@@ -52,13 +52,4 @@ my_frame['address'] = my_frame[column_list[1]] + ' ' + my_frame[column_list[2]] 
 my_frame['result'] = my_frame['address'].apply(geocode)
 
 
-
-test_tup = (174.7962783, -36.9602476)  
-
-
-
-
-        
-        
-        
 my_frame['available_tech'] = my_frame['result'].apply(get_technologies)
