@@ -6,9 +6,9 @@ import requests
 
 my_file = 'wip.csv'
 
-google_api_key = 'AIzaSyAs6XXypq9GGQ11P6bWcP3d0Pl1xtf7VOg'
+google_api_key = '<key>'
 
-broadband_map_api_key = 'ea8f76637af2064f7292'
+broadband_map_api_key = '<key>'
 
 # Replace the API key below with a valid API key.
 gmaps = googlemaps.Client(key=google_api_key)
